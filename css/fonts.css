@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Moniqa-BoldHeading';
+    src: url('fonts/Moniqa-BoldHeading.woff2') format('woff2'),
+        url('fonts/Moniqa-BoldHeading.woff') format('woff'),
+        url('fonts/Moniqa-BoldHeading.svg#Moniqa-BoldHeading') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1{
+	font-family: 'Moniqa-BoldHeading';
+	font-style: normal;
+	font-weight: 674;
+	font-size: 96px;
+	line-height: 100%;
+	text-align: center;
+	letter-spacing: -0.04em;
+	background: linear-gradient(92.54deg, #F4D6FF 6.27%, #D6FFF8 97.71%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+h2{
+	font-family: 'Moniqa-BoldHeading';
+	font-style: normal;
+	font-weight: 674;
+	font-size:	72px;
+	line-height: 110%;
+	text-align: center;
+	margin-bottom: 44px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+h3{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 130%;
+	letter-spacing: -0.04em;
+}
+
+h4{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 120%;
+	letter-spacing: -0.04em;
+}
+
+p{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 120%;
+	letter-spacing: -0.04em;
+}
+
+#crypto p{
+	opacity: 0.2;
+	text-align: center;
+	margin-top: -32px;
+	margin-bottom: 24px;
+}
+
+a{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 53px;
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.04em;
+	text-decoration: none;
+}
+
+
+@media (max-width: 800px){
+
+	h1{
+		font-size: 72px;
+	}
+
+	h2{
+		font-size: 48px;
+	}
+
+	a{
+		font-size: 24px;
+	}
+
+	p{
+		font-size: 18px;
+	}
+
+}
