@@ -173,7 +173,7 @@ a:hover{
 	margin-top: 100px;
 	margin-bottom: 44px;
 	height: 660px;
-	background: url(../src/cover.webp);
+	background: url(../src/cover.png);
 	
 	background-position: center center;
 	background-size: cover;
@@ -731,7 +731,7 @@ hr{
 	.cover{
 		margin-top: 10px;
 		height: 400px;
-		background-image: url(../src/covermob.webp);
+		background-image: url(../src/covermob.png);
 	}
 
 
